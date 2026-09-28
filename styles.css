@@ -23,3 +23,8 @@
 @media(max-width:760px){.lamp-tutorial{padding:18px 0 48px}.article-hero{grid-template-columns:1fr;padding:23px;gap:20px}.article-hero h1{font-size:45px}.article-deck{font-size:18px}.article-hero-image img{height:420px}.tutorial-layout{grid-template-columns:1fr}.tutorial-aside{position:static;grid-row:1}.materials-box,.finish-box{padding:22px}.materials-list{grid-template-columns:1fr}.steps-section{padding:42px 0}.build-step{grid-template-columns:34px 1fr;gap:0 12px;padding:23px 0}.step-number{font-size:20px}.step-copy h3{font-size:21px}.step-image{margin-top:9px}.step-image img{max-height:520px}}
 @media(max-width:480px){.breadcrumbs{font-size:10px;gap:6px;flex-wrap:wrap}.article-hero h1{font-size:39px}.article-hero-image img{height:360px}.article-meta span{font-size:10px}.source-note{grid-template-columns:34px 1fr;padding:16px;gap:12px}.source-mark{width:34px;height:34px}}
 .video-guide-pending{background:#fff;border:1px solid var(--line);border-radius:18px;padding:34px;max-width:900px;margin:0 auto}.video-guide-pending h2{font-family:Georgia,serif;font-size:34px;line-height:1.08;color:var(--ink);margin:0 0 12px}.video-guide-pending p{max-width:760px;color:#5b645c;font-size:15px;line-height:1.65;margin:0 0 22px}@media(max-width:760px){.video-guide-pending{padding:23px}.video-guide-pending h2{font-size:29px}}
+/* Preserve the complete user-provided reference image and its horizontal light pattern. */
+.mini-card img[src*="lampe-kunststoffrohr-referenz"],
+.image-wrap img[src*="lampe-kunststoffrohr-referenz"] { object-fit:contain; background:#33271f; }
+.article-hero-image { background:#33271f; border-radius:17px; overflow:hidden; }
+.article-hero-image img { width:100%; object-fit:contain; object-position:center; }
